@@ -1,0 +1,114 @@
+.xImage {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100px;
+}
+.overlay {
+  z-index: 100;
+  position: absolute;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.row-style{
+  border-color: red;
+  border-width: 0px;
+  border-style: solid;
+  margin-top: 0px;
+}
+
+.col-style{
+  border-color: red;
+  border-width: 0px;
+  border-style: solid;
+}
+
+.one{
+  vertical-align: bottom;
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
+  right: 7pt;
+  margin-bottom: 20px;
+}
+
+html{
+  overflow-x: hidden;
+  max-width: 100%;
+}
+.title{
+  color: white;
+}
+h2{
+  font-family: 'Sansita', sans-serif;
+  font-style: bold;
+  font-size: 35px;
+}
+body{
+  background: #222;
+color: #fff;
+fill: #fff;
+}
+
+a{
+  color:   #ff5252 !important;
+stroke: #ff5252 !important;
+stroke-width: .1px
+font-size: 35px;
+}
+
+h1{
+font-family: 'Merriweather', serif;
+  font-size: 45px
+}
+.blur-me {
+  filter: blur(9px);
+}
+h4{
+font-family: 'Inconsolata', monospace;
+font-size: 30px
+}
+
+iframe{
+  border-color: black; border-style: solid;
+}
+
+.footer {
+
+    height:100px; // Replace with the height your footer should be
+    width: 100%; // Don't change
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    right: 25pt;
+    margin-left: 20px
+    margin-right:20px;
+    background: #222;
+    color: #fff;
+    min-width: 100%
+}
+
+/* For mobile phones: */
+[class*="col-md-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 1000px) {
+    /* For tablets: */
+    .col-md-1 {width: 8.33%;}
+    .col-md-2 {width: 16.66%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 33.33%;}
+    .col-md-5 {width: 40.00%;}
+    .col-md-6 {width: 50%;}
+    .col-md-7 {width: 57.33%;}
+    .col-md-8 {width: 66.66%;}
+    .col-md-9 {width: 75%;}
+    .col-md-10 {width: 83.33%;}
+    .col-md-11 {width: 91.66%;}
+    .col-md-12 {width: 100%;}
+}
+
